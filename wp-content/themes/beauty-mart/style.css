@@ -1,0 +1,268 @@
+/*!
+Theme Name:     Beauty Mart
+Theme URI:      https://codevibrant.com/wpthemes/beauty-mart/
+Author:         CodeVibrant
+Author URI:     https://codevibrant.com/
+Description:    Beauty Mart is the child theme of Easy Mart. It is a beautifully designed e-commerce theme fully compatible with the most popular WooCommerce plugin. The theme comes with a clean and elegant design and developer friendly. It is fully responsive, translation ready, SEO friendly and compatible with WooCommerce, YITH WooCommerce Wishlist, and popular plugin. Use this theme for your e-commerce website, you will feel the best ever experience. Get free support at https://codevibrant.com/support/ and check the demo at http://demo.codevibrant.com/easy-mart-landing/
+Version:        1.0.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       easy-mart
+Text Domain:    beauty-mart
+Tags:           e-commerce, food-and-drink, entertainment, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-logo, threaded-comments, translation-ready
+
+*/
+
+/*--------------------------------------------------------------
+Header CSS
+--------------------------------------------------------------*/
+.top-header{
+  background: #212121;
+  color: #ffffff;
+}
+
+.cv-whishlist a, #top-header-nav ul li a{
+  color: #fff;
+}
+
+.site-header-cart {
+  float: right;
+}
+
+#masthead li {
+  list-style: none;
+}
+
+.site-header-cart .widget.woocommerce ul {
+  text-align: left;
+}
+
+#site-header-cart .widget_shopping_cart {
+  position: absolute;
+  top: 110%;
+  background: #212121;
+  width: 270px;
+    left:auto;
+  right: 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  padding: 20px 20px 10px;
+  color: #fff;
+}
+
+#site-header-cart:hover .widget_shopping_cart {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+#site-header-cart .woocommerce ul.cart_list li a, 
+#site-header-cart .woocommerce ul.product_list_widget li a,
+#site-header-cart .product .price, 
+#site-header-cart .woocommerce ul.products li.product .price, 
+#site-header-cart .widget.woocommerce .woocommerce-Price-amount.amount {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+Footer CSS
+--------------------------------------------------------------*/
+.site-footer-bottom-section {
+  background: none;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+/*slider sidebar*/
+.em-right-slider-wrapper .lSAction {
+  bottom: auto;
+  top: 5px;
+  left: 10px;
+  position: absolute;
+}
+
+.em-right-slider-wrapper .lSAction > a {
+  position: static;
+  display: inline-block;
+  background: #fff;
+  color: 333;
+  text-align: center;
+  opacity: 1;
+  line-height: 28px;
+  font-size: 15px;
+  margin: 0 3px;
+  width: 28px;
+  height: 28px;
+}
+
+/*category collection */
+
+.easy_mart_products_category_collection .product-category,
+.easy_mart_default_post_category .section-post-content-wrap {
+  margin-left: -3%;
+  margin-bottom: -3%;
+}
+
+.easy_mart_products_category_collection .product-category .category-content,
+.easy_mart_default_post_category .post-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 30.33%;
+  margin-left: 3%;
+  margin-right: -4px;
+  margin-bottom: 3%;
+  position: relative;
+  overflow: hidden;
+}
+
+.easy_mart_products_category_collection .product-category.column-4 .category-content,
+.easy_mart_default_post_category .column-4 .post-content {
+  width: 22%;
+}
+
+.easy_mart_products_category_collection .product-category.column-2 .category-content,
+.easy_mart_default_post_category .column-2 .post-content {
+  width: 47%;
+}
+
+.easy_mart_products_category_collection .product-category.column-1 .category-content,
+.easy_mart_default_post_category .column-1 .post-content {
+  width: 97%;
+}
+
+.easy_mart_products_category_collection .product-category .category-content::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: rgba(0,0,0,0.05);
+}
+
+.easy_mart_products_category_collection .product-category .category-content img {
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.easy_mart_products_category_collection .product-category .category-content:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.easy_mart_products_category_collection .category-title-btn-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: -40%;
+  width: 80%;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 99;
+}
+
+.easy_mart_products_category_collection .category-title a {
+  display: block;
+  color: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+}
+
+.easy_mart_products_category_collection .category-title-btn-wrap .category-btn {
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  padding: 4px 21px;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #1CB9C8;
+  background: #1CB9C8;
+}
+
+.easy_mart_products_category_collection .category-title-btn-wrap .category-btn:hover {
+  background: #1CB9C8;
+  color: #fff;
+  border-color: #1CB9C8;
+  border-radius: 30px;
+}
+
+
+/*promo design*/
+.easy_mart_promo_content .promo-icon-title-block .promo-icon {
+  float: none;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  width: 80px;
+  height: 80px;
+  line-height: 78px;
+  border-width: 2px;
+}
+
+.easy_mart_promo_content .promo-title {
+  margin: 20px 0 0;
+  text-align: center;
+  width: auto;
+  display: block;
+  font-weight: 700;
+}
+
+ .home #content .widget.widget_media_image img{
+  width: auto;
+ }
+
+
+/*******************************************************
+Responsive CSS
+********************************************************/
+
+@media (max-width: 1200px) {
+
+  .boxed-layout #page {
+    width: auto;
+  }
+}
+
+@media (max-width: 980px) {
+
+  .site-middle-sidebar-section .widget {
+    float: left;
+  }
+
+  .boxed-layout .easy_mart_products_category_collection .category-title a {
+    font-size: 21px;
+  }
+
+  .easy_mart_promo_content .promo-icon-title-block .promo-icon {
+    font-size: 18px;
+    width: 70px;
+    height: 70px;
+    line-height: 66px;
+  }
+}
+
+@media (max-width: 600px){
+
+  .easy_mart_products_category_collection .product-category.column-2 .category-content, 
+  .easy_mart_default_post_category .column-2 .post-content {
+    width: 97%;
+  }
+}

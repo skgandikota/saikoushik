@@ -1,0 +1,67 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beauty Mart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-15 10:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: functions.php:54
+msgid "Background Color"
+msgstr ""
+
+#: functions.php:45
+msgid "Background Image"
+msgstr ""
+
+#. Name of the theme
+msgid "Beauty Mart"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Beauty Mart child theme of easy mart.It is a beautifully designed e-commerce "
+"theme fully compatible with the most popular WooCommerce plugin. The theme "
+"comes with a clean and elegant design and developer friendly. It is fully "
+"responsive, translation ready, SEO friendly and compatible with WooCommerce, "
+"YITH WooCommerce Wishlist, and popular plugin. Use this theme for your e-"
+"commerce website, you will feel the best ever experience. Get free support "
+"at https://codevibrant.com/support/ and check the demo at http://demo."
+"codevibrant.com/easy-mart-landing/"
+msgstr ""
+
+#. Author of the theme
+msgid "CodeVibrant"
+msgstr ""
+
+#: functions.php:64
+msgid "Font Color"
+msgstr ""
+
+#: functions.php:36
+msgid "Footer Background Setting"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://codevibrant.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://codevibrant.com/wpthemes/easy-mart/"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Josefin Sans, translate this to 'off'. Do not translate into your own language.
+#: functions.php:87
+msgctxt "Josefin Sans font: on or off"
+msgid "on"
+msgstr ""
