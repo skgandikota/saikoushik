@@ -1,3 +1,5 @@
+
+<?php /* Template Name: Example Template */ ?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
