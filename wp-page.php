@@ -1,5 +1,5 @@
 
-<?php /* Template Name: Example Template */ ?>
+<?php /* Template Name: CV Home */ ?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
