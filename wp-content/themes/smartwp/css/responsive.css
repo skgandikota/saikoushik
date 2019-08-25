@@ -1,0 +1,122 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 767px) {
+	/*slider*/
+	.rev-btn{
+		font-size: 10px !important;
+		padding: 5px 15px !important;
+		margin-top: 10px !important;
+	}
+
+	/*process-box */
+	.process-box {
+	  margin-bottom: 30px;
+	}
+
+	/*quote-carousel*/
+	#quote-carousel .carousel-indicators {
+	  bottom: -45px;
+	  left: 40%;
+	  width: 90%;
+	  margin-left: -35%;
+	}
+	#quote-carousel .carousel-control {
+	  bottom: 0;
+	}
+	#quote-carousel .carousel-control.left {
+	  left: 0;
+	}
+	#quote-carousel .carousel-control.right {
+	  right: 0;
+	}
+
+	/*case-study*/
+	.case-study-left {
+	  padding: 60px 25px 60px 25px;
+	}
+	.case-study-right {
+	  padding: 60px 25px 60px 25px;
+	}
+
+	/*contact-section*/
+	.contact-section .btn {
+	  min-width: 260px;
+	}
+	.social-icon li {
+		margin-bottom: 10px;
+	}
+
+	/* === SERVICES SECTION === */
+	.sbox-gutter {
+	    border: 0;
+	}
+
+	/* === about-section === */
+	.video-wrap iframe {
+	  height: 160px;
+	  margin-top: 20px;
+	}
+
+	/*contact form*/
+	.btn.submit-btn{
+		min-width: 200px;
+	}
+
+	/*footer*/
+	.footer-sidebar {
+	    padding: 20px 0 22px;
+	}
+
+	.vc_video-bg.vc_hidden-xs{
+		display: block !important;
+	}
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+	.rev-btn{
+		font-size: 12px !important;
+		padding: 7px 20px !important;
+		margin-top: 10px !important;
+	}
+}	
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+	
+	/*process-box */
+	.process-box {
+	  margin-bottom: 30px;
+	}
+
+	/*quote-carousel*/
+	#quote-carousel .carousel-indicators {
+	  bottom: -45px;
+	}
+	#quote-carousel .carousel-control {
+	  bottom: 0px;
+	}
+
+	/*case-study*/
+	.case-study-left {
+	  padding: 60px 25px 60px 25px;
+	}
+	.case-study-right {
+	  padding: 60px 25px 60px 25px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1280px) {
+	
+}
+
+/* Large devices (large desktops, 1920px and up) */
+@media (min-width : 1920px) {
+
+}
