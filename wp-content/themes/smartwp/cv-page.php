@@ -173,14 +173,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/project-1.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Recent Project</div>
                       <p>Web Development</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/project-2.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Startup Project</div>
                       <p>Web Development</p>
@@ -189,14 +189,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/project-3.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Food Order Project</div>
                       <p>Web Development</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/project-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Web Advertising Project</div>
                       <p>Web Development</p>
@@ -211,14 +211,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/graphic-design-1.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Triangle Pattern</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/graphic-design-2.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Abstract Umbrella</div>
                       <p>Graphic Design</p>
@@ -227,14 +227,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/graphic-design-3.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Cube Surface Texture</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/graphic-design-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Abstract Line</div>
                       <p>Graphic Design</p>
@@ -249,14 +249,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/photography-1.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Photoshoot</div>
                       <p>Photography</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/photography-3.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Wedding Photoshoot</div>
                       <p>Photography</p>
@@ -265,14 +265,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/photography-2.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Beach Photoshoot</div>
                       <p>Photography</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="<?php echo get_template_directory_uri; ?>/images/photography-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Nature Photoshoot</div>
                       <p>Photography</p>
@@ -407,7 +407,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="<?php echo get_template_directory_uri; ?>/images/reference-image-1.jpg" alt="Image"/>
                 <div class="h5 pt-2">Aiyana</div>
                 <p class="category">CEO / WEBM</p>
               </div>
@@ -418,7 +418,7 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="<?php echo get_template_directory_uri; ?>/images/reference-image-2.jpg" alt="Image"/>
                 <div class="h5 pt-2">Braiden</div>
                 <p class="category">CEO / Creativem</p>
               </div>
@@ -429,7 +429,7 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="<?php echo get_template_directory_uri; ?>/images/reference-image-3.jpg" alt="Image"/>
                 <div class="h5 pt-2">Alexander</div>
                 <p class="category">CEO / Webnote</p>
               </div>
@@ -518,11 +518,11 @@
         <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>
     </footer>
-    <script src="js/core/jquery.3.2.1.min.js"></script>
-    <script src="js/core/popper.min.js"></script>
-    <script src="js/core/bootstrap.min.js"></script>
-    <script src="js/now-ui-kit.js?v=1.1.0"></script>
-    <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/core/jquery.3.2.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/core/popper.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/core/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/now-ui-kit.js?v=1.1.0"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/aos.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts/main.js"></script>
   </body>
 </html>
