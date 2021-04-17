@@ -69,11 +69,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   width: 300px;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.1s; 
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: black;
   overflow-y: auto;
 }
 
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 0px;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
